@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Testing Netlify change
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Testing Netlify change
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
