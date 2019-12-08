@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Testing Netlify change
 image: /img/home-jumbotron.jpg
-heading: Testing Netlify change
+heading: About this site
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
