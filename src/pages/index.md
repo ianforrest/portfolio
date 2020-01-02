@@ -2,7 +2,11 @@
 templateKey: index-page
 title: Testing Netlify change
 image: /img/home-jumbotron.jpg
+<<<<<<< HEAD
 heading: About this website
+=======
+heading: About this site
+>>>>>>> ce0a213628c18db69ed4e8c7fe120da085de6645
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: About Me
