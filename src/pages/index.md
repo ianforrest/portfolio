@@ -1,19 +1,15 @@
 ---
 templateKey: index-page
-title: Testing Netlify change
+title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
-<<<<<<< HEAD
 heading: About this website
-=======
-heading: About this site
->>>>>>> ce0a213628c18db69ed4e8c7fe120da085de6645
-subheading: Support sustainable farming while enjoying a cup
+subheading: My name is Ian Forrest
 mainpitch:
-  title: About Me
+  title: About me
   description: >
     I make/maintain websites and web applications in Seattle, both as my day job for Weyerhaeuser and in my spare time for small businesses and nonprofits. 
 description: >-
-  This website is built with Gatsby and Netlify, two cool technologies that make websites faster and safer. This type of web development architecture is called JAMstack. JAM stands for JavaScript, APIs and Markdown.
+   This website is built with Gatsby and Netlify, two cool technologies that make websites faster and safer. This type of web development architecture is called JAMstack. JAM stands for JavaScript, APIs and Markdown.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -66,4 +62,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-
