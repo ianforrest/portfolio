@@ -3,21 +3,21 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #f45d48
-$kaldi-red-invert: #fff
+$kaldi-red: #ffd803
+$kaldi-red-invert: #bae8e8
 
-$primary: #222525
-$primary-invert: #232323
-$body-color: #222525
-$lightgreen: #222525
+$primary: #272343
+$primary-invert: #bae8e8
+$body-color: #272343
+$lightgreen: #272343
 
 html 
-  background-color: #f8f5f2 !important
+  background-color: #fffffe !important
   font-family: 'PT Sans', sans-serif;
 
 .navbar .navbar-menu
-  box-shadow:none !important
-  background-color: #f8f5f2
+ 
+  background-color: #fffffe
   font-size: 1.1em
  
 .content 
@@ -41,10 +41,11 @@ html
 .content h1, .content h2, .content h3, .content h4 
   
     font-family: 'PT Serif', serif;
+    color: #272343;
 
 
 .section-light
-  background-color: #fffffe
+  background-color: #fffffb
 
     
 
@@ -74,18 +75,18 @@ html
 
 .btn
     display: inline-block
-    padding: 12px 16px 10px
+    padding: 16px 60px 16px
     font-size: 18px
-    font-size: 1rem
+    font-size: 1.1rem
     line-height: 1.25
-    background-color: #078080
+    background-color: #ffd803
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #f8f5f2
+    color: #272343
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #078080
-    box-shadow: inset 0 0 0 2px #078080
+    -webkit-box-shadow: inset 0 0 0 2px #ffd803
+    box-shadow: inset 0 0 0 2px #ffd803
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -93,13 +94,16 @@ html
   margin-top: 0 !important
 
 .navbar
-  background-color: #f8f5f2 !important
+  background-color: #fffffe!important
 
 .navbar-item .icon
   color: $primary
 a.navbar-item:hover, a.navbar-item:focus
   background-color: #fffffe !important
   color: #001e1d !important
+
+.notification
+  background-color: #fffffe
 
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
@@ -108,11 +112,11 @@ a.navbar-item:hover, a.navbar-item:focus
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
-  background-color: #f8f5f2
+  background-color: #fffffe
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: #feefe8
-  color: #222525
+  background-color: #e3f6f5
+  color: #2d334a
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -130,13 +134,13 @@ $menu-label-color: $white-ter
   list-style: none !important
   text-align: left
 .menu-list a 
-  color: #222525 !important
+  color: #272343 !important
 .social
   padding: 2em
 .social a
     padding: .5em .5em .3em .5em
     border-radius: 1em
-    background-color: $white-ter
+ 
     margin: .5em
     width: 1em
     height: 1em
@@ -145,7 +149,10 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #f8f5f2;
+  background-color: #272343;
+  color: #fffffe
+.blog-list-item.is-featured a
+  color: #fffffe  
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
