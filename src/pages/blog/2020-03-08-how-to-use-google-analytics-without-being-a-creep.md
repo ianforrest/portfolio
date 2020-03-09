@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: How to use Google Analytics without being a creep
-date: 2020-03-02T01:35:56.709Z
+date: 2020-03-09T00:35:56.709Z
 description: >-
   If you’re collecting data on the people who interact with your business via
   Google Analytics, you owe it to them to understand what’s happening, and to
