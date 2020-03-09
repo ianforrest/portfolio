@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Ian Forrest | A Digital Strategist in Seattle, WA
 image: /img/home-jumbotron.jpg
 heading: About this website
 subheading: My name is Ian Forrest
