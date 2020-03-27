@@ -14,7 +14,7 @@ tags:
 
 They do wonderful work, making the park safer, more beautiful and more accessible to all people, while still preserving the original vision of the Olmsted brothers' design.
 
-Their website redesign featured a more robust events calendar, a full project archive and an audio walking tour of the park's most beloved features. The website had a 79% year-over-year increase in visitors after launching, an increase that is in part is due to the group's increasing visibility as stewards of the park and the existence of new content.
+Their website redesign featured a more robust events calendar, a full project archive and an audio walking tour of the park's most beloved features. The website had a 79% year-over-year increase in visitors after launching, an increase that is in part is due to the group's increasing visibility as stewards of the park and in part due to the existence of new content.
 
 Here are the details of their website redesign, which launched in early 2019:
 
