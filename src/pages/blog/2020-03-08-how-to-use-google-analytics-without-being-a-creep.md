@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: >-
-  Tracking website visits with Google Analytics - and respecting your visitors'
+  Tracking website visits with Google Analytics — and respecting your visitors'
   data privacy
 date: 2020-03-09T00:35:56.709Z
 description: >-
