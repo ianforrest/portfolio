@@ -20,6 +20,6 @@ Here are the details of their website redesign, which launched in early 2019:
 
 * Built on WordPress, using a WordPress child theme of the Green Planet WordPress theme
 * Migrated website to a new host for faster page load times
-* Result: A 79% year-over-year increase in visitors.
+* Result: A 79% year-over-year increase in visitors
 
 See their website at [volunteerparktrust.org](https://volunteerparktrust.org).
