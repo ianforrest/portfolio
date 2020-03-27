@@ -12,7 +12,7 @@ description: >-
 featuredpost: false
 featuredimage: /img/ga-search.jpg
 tags:
-  - analytics
+  - posts
 ---
 When you put a Google tracking code on your website, information about the people who visit your website gets shared with Google. 
 
