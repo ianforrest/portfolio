@@ -12,7 +12,7 @@ tags:
 ---
 ![volunteer-park-aerial-shot](/img/volunteer-park-photo.jpg "Volunteer Park From Above")
 
-Volunteer Park Trust is a group of friends and neighbors who have teamed up to preserve and improve Seattle's historic green oasis: Volunteer Park. They do wonderful work, making the park safer, more beautiful and more accessible to all people, while still preserving the original vision of the Olmsted brothers' design.
+They do wonderful work, making the park safer, more beautiful and more accessible to all people, while still preserving the original vision of the Olmsted brothers' design.
 
 Their website redesign featured a more robust events calendar, a full project archive and an audio walking tour of the park's most beloved features. The website had a 79% year-over-year increase in visitors after launching, an increase that is in part is due to the group's increasing visibility as stewards of the park and the existence of new content.
 
