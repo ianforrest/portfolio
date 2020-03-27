@@ -1,6 +1,8 @@
 ---
 templateKey: blog-post
-title: How to use Google Analytics without being a creep
+title: >-
+  Tracking website visits with Google Analytics - and respecting your visitors'
+  data privacy
 date: 2020-03-09T00:35:56.709Z
 description: >-
   If you’re collecting data on the people who interact with your business via
@@ -32,7 +34,7 @@ The California Consumer Privacy Act is the first domino to fall to force website
 
 If you run a website that doesn’t meet that criteria, you don’t have to comply with the CCPA, but you should ask yourself whether your own values align with the data you’re collecting about your website visitors and storing on a server of which you have no visibility.
 
-In short, don’t wait for state legislation to make you stop acting like a creep. You can not be a creep whenever you’d like to start.
+In short, don’t wait for state or provincial legislation to make you stop acting like a creep. You can not be a creep whenever you’d like to start.
 
 Most of the risk in accidentally collecting personal information comes in how you build your website and the features within it, not how you set up your Google Analytics property.
 
