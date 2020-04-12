@@ -5,6 +5,7 @@ import logo from '../img/ianforrest.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
+import github from '../img/github-icon.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -51,6 +52,14 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
+                <a title="github" href="https://github.com/ianforrest">
+                  <img
+                    src={github}
+                    alt="Github"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+
                 <a title="facebook" href="https://facebook.com/ianforrest">
                   <img
                     src={facebook}
