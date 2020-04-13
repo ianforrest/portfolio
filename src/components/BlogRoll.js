@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { kebabCase } from 'lodash'
+
 
 
 class BlogRoll extends React.Component {
@@ -45,9 +45,10 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.date}
                     </span>
                     <span className="subtitle is-size-5 is-block">
-                      <Link to={'/tags/'}>#{post.frontmatter.tags}
-                      </Link>
-                      <Link to={'/tags/${post.frontmatter.tags}/'}>Test</Link>
+                      #{post.frontmatter.tags}
+                      
+
+
 
                         
                     </span>
