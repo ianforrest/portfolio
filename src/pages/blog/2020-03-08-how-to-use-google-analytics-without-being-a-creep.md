@@ -14,6 +14,8 @@ featuredimage: /img/ga-search.jpg
 tags:
   - posts
 ---
+![google-analytics-on-phone](/img/ga-search.jpg)
+
 When you put a Google tracking code on your website, information about the people who visit your website gets shared with Google. 
 
 Your website visitor’s device model, their browser, their IP address, their city, the website they came from prior to visiting your website, the buttons they click, the things they type while on your website: all of it can be saved to Google Analytics’ servers.
