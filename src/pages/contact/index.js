@@ -58,7 +58,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h2>Fill out this little form and Ill get back to you soon.</h2>
+              <h2>Fill out this little form and I'll get back to you soon.</h2>
               <p>You can also drop me a message on <a href="https://www.instagram.com/ianforrest/">Instagram</a> or <a href="https://www.linkedin.com/in/ianfo/">LinkedIn</a>.</p>
               <form
                 name="contact"
@@ -124,16 +124,17 @@ export default class Index extends React.Component {
                   <button className="button is-link" type="submit"
                   style={{
              
-              backgroundColor: '#ffd803',
+              backgroundColor: '#f9bc60',
               color: '#272343',
-              padding: '0.8rem',
+              padding: '16px 60px 16px',
               fontSize: '1.1rem',
               lineHeight: '1.25',
               borderRadius: '.25rem',
               textDecoration: 'none',
               fontWeight: '700',
-              color: '#272343',
+              color: '#001e1d',
               height: 'auto',
+
             }}>
                     Send
                   </button>
