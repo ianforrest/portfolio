@@ -60,13 +60,6 @@ const Footer = class extends React.Component {
                   />
                 </a>
 
-                <a title="facebook" href="https://facebook.com/ianforrest">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
              
                 <a title="twitter" href="https://twitter.com/ianforrest">
                   <img
