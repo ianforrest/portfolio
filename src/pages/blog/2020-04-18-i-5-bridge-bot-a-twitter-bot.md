@@ -14,7 +14,7 @@ tags:
 
 @I5BridgeBot is a Twitter bot that automatically sends a tweet each time the Interstate 5 bridge lifts.
 
-This was an application I created based on what I learned at the Portland Code School JavaScript boot camp. Surprisingly, with almost no maintenance, it still functions today. It uses the Washington State Department of Transportation API to trigger a tweet each time WSDOT issues a bridge delay alert.
+This was an application I created based on what I learned at the Portland Code School JavaScript boot camp. Five years later, with almost no maintenance, it still functions just as it did when it was created. It uses the Washington State Department of Transportation API to trigger a tweet each time WSDOT issues a bridge delay alert.
 
 This bot's insides are made of node.js, the WDOT API and Heroku.
 
