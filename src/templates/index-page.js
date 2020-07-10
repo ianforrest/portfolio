@@ -46,11 +46,11 @@ export const IndexPageTemplate = ({
                 <div className="column">
                     <div className="content">
                       <div className="columns is-vcentered">
-                        <div className="column is-10 is-offset-1">
+                        <div className="column is-10 is-offset-1 bio-pic">
                           <img
                             src={ianphoto}
                             alt="Ian"
-                            style={{ }}
+                            style={{}}
                           />
                         </div>
                       </div>
