@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 'I-5 Bridge Bot, a Twitter bot'
-date: 2015-04-19T04:15:00.000Z
+date: 2020-01-11T05:15:00.000Z
 description: >-
   Every time the I-5 bridge raises for river traffic, a tweet is sent by
   @I5BridgeBot.
