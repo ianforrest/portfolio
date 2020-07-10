@@ -16,10 +16,10 @@ Editor Consignment is a literature-themed women's clothing boutique focused on c
 
 Editor's website has matured along with the business, which started as a popup shop at Fremont Sunday Market and the Sodo Flea. Its current home is on 70th Street, one of Seattle's hidden gems and one of the city's best streets for food. 
 
-Here are the details of the website's design and development, which launched in 2018 and then pivoted in 2020 to become an e-commerce website during the storefront's forced closure due to the pandemic. 
+Here are the details of the website's design and development, which launched in 2018 and then pivoted in 2020 to become an e-commerce website during the storefront's forced closure due to the pandemic. To increase efficiency and create a more sustainable form of revenue long-term, we switched the shop's platform from WordPress/WooCommerce to Shopify, which fully integrate's with the shop's existing inventory system.
 
-* Built on WordPress using a child theme of the Atelier WordPress theme
-* E-commerce powered by WooCommerce and Stripe Payments
+* Built on ~~WordPress using a child theme of the Atelier WordPress theme~~ Shopify and the Impulse theme
+* E-commerce powered by ~~WooCommerce and Stripe Payments~~ Shopify!
 * Facebook Catalog and Instagram Shopping integration 
 * Result: 880% increase in Instagram website traffic after e-commerce shop launch
 
