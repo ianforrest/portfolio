@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Ian Forrest | A Digital Strategist in Seattle, WA',
+    title: 'Ian Forrest | A Website Maker and Marketer in Seattle, WA',
     description:
-      'Ahoy. This is a website made by Ian Forrest.',
+      'Ian Forrest is a person in Seattle helping people figure out what to do with their companies\' websites.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
