@@ -1,5 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300;400;500;600&display=swap")
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -8,17 +8,29 @@ $kaldi-red-invert: #bae8e8
 
 $primary: #272343
 $primary-invert: #bae8e8
-$body-color: #272343
+$body-color: #08080B 
 $lightgreen: #272343
+$background: #fafafa
 
 html 
-  background-color: #fffffe !important
+  background-color: #fafafa !important
+  font-family: 'Roboto', sans-serif;
+
+body, button, input, textarea
+  font-family: 'Roboto', sans-serif !important;
+
+
+
+
+ 
  
 
 .navbar .navbar-menu
- 
-  background-color: #fffffe
+ background-color: #fafafa
   font-size: 1.1em
+
+.navbar
+  background-color: #fafafa !important
  
 .content 
   font-size: 1.1em;
@@ -45,23 +57,27 @@ html
   justify-content: center
   max-height: 400px
 
+.section
+  padding: 3rem 1rem 0rem 1rem !important
+
 .section-light
-  background-color: #abd1c6
+  background-color: #fafafa
+
 
     
 .section--gradient
-  background-color: #004643
+  background-color: #fafafa
   color: #abd1c6
 
+
 .home-intro h2
-  color: #fffffe !important
+
 
 .home-intro h3
-  color: #fffffe !important
 
 .home-intro p
   font-size: 1.4rem;
-  color: #fffffe 
+  
 
 // Helper Classes
 .full-width-image-container
@@ -107,12 +123,12 @@ html
   margin-top: 0 !important
 
 .navbar
-  background-color: #fffffe!important
+
 
 .navbar-item .icon
   color: $primary
 a.navbar-item:hover, a.navbar-item:focus
-  background-color: #fffffe !important
+
   color: #001e1d !important
 
 .notification
@@ -125,15 +141,15 @@ a.navbar-item:hover, a.navbar-item:focus
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
-  background-color: #fffffe
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: #004643
-  color: #abd1c6
+  color: #08080B 
 
+.navbar-brand
+  background-color: #fafafa
 
 .footer .menu-list a
-  color: #ffffff;
+  color: #08080B;
 
 footer .columns
   margin-left: -.01rem;
@@ -155,7 +171,7 @@ $menu-label-color: $white-ter
   list-style: none !important
   text-align: left
 .social
-  padding: 2em
+  text-align:right
 .social a
     padding: .5em .5em .3em .5em
     border-radius: 1em
@@ -172,11 +188,14 @@ $menu-label-color: $white-ter
 .blog-list-item.is-featured a
   color: #fffffe  
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 85%;
   margin: 0 1.5em 0 0;
+
+
+.post-meta .title
+  font-family: 'Roboto Slab', serif;
+  
 
 
 @import "~bulma"

@@ -24,38 +24,19 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
               <div className="columns">
-                <div className="column is-6">
+                <div className="column is-10">
                   <div className="content">
                     <div className="tile home-intro">
-                      <h2 className="title is-size-1">{mainpitch.title}</h2>
+                      <h2 className="title is-size-2">{mainpitch.title}</h2>
                     </div>
                     <div className="tile home-intro">
-                      <p>{mainpitch.description}</p>
+                      <h2 className="description is-size-3">{mainpitch.description}</h2>
                     </div>
                   </div> 
-                  <div className="columns">
-                    <div className="column is-12 home-intro">
-                      <h3 className="has-text-weight-semibold is-size-3 subtitle">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
-                  </div> 
+
                   </div>
                
-                <div className="column">
-                    <div className="content">
-                      <div className="columns is-vcentered">
-                        <div className="column is-10 is-offset-1 bio-pic">
-                          <img
-                            src={ianphoto}
-                            alt="Ian"
-                            style={{}}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+               
                 </div>
               </div>
             </div>
@@ -74,9 +55,6 @@ export const IndexPageTemplate = ({
 
 
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Posts and Side Projects
-                  </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
