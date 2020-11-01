@@ -40,7 +40,7 @@ In short, don’t wait for state or provincial legislation to make you stop acti
 
 Most of the risk in accidentally collecting personal information comes in how you build your website and the features within it, not how you set up your Google Analytics property.
 
-If you’re just getting started using Google Analytics, you can feel confident about placing the tracking code inside your <head> tag. But here are two quick things you can do to feel a little bit better about how you track your website visitors.
+If you’re just getting started using Google Analytics, you can feel confident about placing the tracking code inside your head tag. But here are two quick things you can do to feel a little bit better about how you track your website visitors.
 
 ### Anonymize the IP addresses of your website visitors
 
