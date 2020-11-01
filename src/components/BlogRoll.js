@@ -21,6 +21,7 @@ class BlogRoll extends React.Component {
                 }`}
               >
                 <header>
+                <Link to={post.fields.slug}>
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -33,6 +34,7 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
+                  </Link>
                   <p className="post-meta">
                     <Link
                       className="title is-size-4"
@@ -94,7 +96,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 420, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
