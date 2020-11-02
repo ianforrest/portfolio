@@ -34,6 +34,11 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
+       <section className="section-nav">
+      <div className="container">
+        <div className="section">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
       <nav
         className="navbar"
         role="navigation"
@@ -41,6 +46,7 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
+
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Ian Forrest"  style={{  }}/>
 
@@ -66,6 +72,11 @@ const Navbar = class extends React.Component {
           </div>
         </div>
       </nav>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
     )
   }
 }

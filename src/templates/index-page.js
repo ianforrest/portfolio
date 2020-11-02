@@ -53,15 +53,10 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-
-
                 <div className="column is-12">
+                      <h2>{subheading}</h2>   
                   <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -135,7 +130,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 460, quality: 100) {
+                fluid(maxWidth: 520, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

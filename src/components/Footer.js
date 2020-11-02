@@ -19,14 +19,14 @@ const Footer = class extends React.Component {
 
             <div className="columns">
 
-              <div className="column is-6">
+              <div className="column is-4">
 
               <p>Copyright 2020 Ian Forrest Web Development.</p>
                 
               
               </div>
               
-              <div className="column is-6 social">
+              <div className="column is-4 social">
                 <a title="github" href="https://github.com/ianforrest">
                   <img
                     src={github}
