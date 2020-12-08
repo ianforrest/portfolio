@@ -19,40 +19,14 @@ const Footer = class extends React.Component {
 
             <div className="columns">
 
-              <div className="column is-4">
+              <div className="column is-4 is-offset-1 has-text-centered" >
 
               <p>Copyright 2020 Ian Forrest Web Development.</p>
                 
               
               </div>
               
-              <div className="column is-4 social">
-                <a title="github" href="https://github.com/ianforrest">
-                  <img
-                    src={github}
-                    alt="Github"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
 
-             
-                <a title="twitter" href="https://twitter.com/ianforrest">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com/ianforrest">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              
-              </div>
             </div>
           </div>
         </div>

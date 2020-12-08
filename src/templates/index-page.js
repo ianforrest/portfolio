@@ -6,7 +6,10 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import ianphoto from '../img/ian-forrest-1x1.jpg'
+import ianphoto from '../img/ian-forrest-41.jpg'
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+import github from '../img/social/github.svg'
 export const IndexPageTemplate = ({
   image,
   title,
@@ -53,11 +56,50 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="column is-12">
+                <div className="bio-container">
+                  <div className="bio-avatar">
+                    <div className="bio-avatar-inner">
+                      <img
+                        src={ianphoto}
+                        alt="Ian Forrest"
+                      />
+                    </div>
+                 </div>
+                  <p className="bio-text">{intro.description}</p> <div className="social"><a title="github" href="https://github.com/ianforrest">
+                  <img
+                    src={github}
+                    alt="Github"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+
+             
+                <a title="twitter" href="https://twitter.com/ianforrest">
+                  <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="instagram" href="https://instagram.com/ianforrest">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a></div> 
+                </div>
+               
+              </div>
+
+                
+              <div className="content">
+                
                       <h2>{subheading}</h2>   
                   <BlogRoll />
 
-                </div>
+                
               </div>
             </div>
           </div>
