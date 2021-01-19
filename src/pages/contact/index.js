@@ -125,7 +125,6 @@ export default class Index extends React.Component {
                   style={{
              
               backgroundColor: '#f9bc60',
-              color: '#272343',
               padding: '16px 60px 16px',
               fontSize: '1.1rem',
               lineHeight: '1.25',

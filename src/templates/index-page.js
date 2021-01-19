@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import BookShelf from '../components/BookShelf'
 import ianphoto from '../img/ian-forrest-41.jpg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -90,14 +90,19 @@ export const IndexPageTemplate = ({
                   />
                 </a></div> 
                 </div>
-               
+            
               </div>
 
                 
               <div className="content">
+
                 
-                      <h2>{subheading}</h2>   
-                  <BlogRoll />
+                    <BookShelf />
+
+                    <h2>{subheading}</h2>
+                    <p>And here's what I've been working on (for fun.)</p>
+                  
+                    <BlogRoll />
 
                 
               </div>
