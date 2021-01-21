@@ -15,7 +15,7 @@ Here's the approach I took in three steps:
 
 ### 1. Get your icons
 
-Snag the React Icons package, which gives you a bunch of options from Font Awesome, Material Design and Bootstrap, including half stars, unfilled stars, etc. Import the star(s) you want to use in your project.
+Snag [the React Icons package](https://react-icons.github.io/react-icons/), which gives you a bunch of icon options from Font Awesome, Material Design and Bootstrap, including half stars, unfilled stars, etc. Import the star(s) you want to use in your project.
 
 ```javascript
 import { BsStarFill } from "@react-icons/all-files/bs/BsStarFill"
@@ -27,7 +27,7 @@ What's the best way to create the appropriate number of stars based on a number 
 
 * [LoDash](https://stackoverflow.com/a/34189653)
 * [ES6](https://stackoverflow.com/a/39438518) (sans external libraries!)
-* Or [the most medieval way](https://stackoverflow.com/a/47826868): sans LoDash and sans external libraries, which is ultimately the route I took.
+* Or [the most medieval way](https://stackoverflow.com/a/47826868): sans external libraries and ES6, which is ultimately the route I took.
 
 We're going to feed our rating component the number of stars in the props (that number exists at props.rating below):
 
