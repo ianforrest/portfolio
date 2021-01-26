@@ -73,7 +73,6 @@ export const IndexPageTemplate = ({
                     <div className="bio-container">
                   <div className="bio-avatar">
                     <div className="bio-avatar-inner">
-                      <hr />
                       <img
                         src={ianphoto}
                         alt="Ian Forrest"
