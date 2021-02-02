@@ -14,6 +14,7 @@ export const BookData = () => {
                   background 
                   status {
                       complete
+                      completeDate
                       rating
                   }
                   description
