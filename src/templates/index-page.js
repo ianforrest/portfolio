@@ -61,15 +61,13 @@ export const IndexPageTemplate = ({
               </div>
 
                 
-              <div className="content">
-
-                
-                    <BookShelf />
-
+              <div className="content"> 
+                  
                     <h2>{subheading}</h2>
-                    <p>And here's what I've been working on (for fun.)</p>
+                    <p>Here's what I've been working on (for fun.)</p>
                   
                     <BlogRoll />
+                    <BookShelf />
                     <div className="bio-container">
                   <div className="bio-avatar">
                     <div className="bio-avatar-inner">

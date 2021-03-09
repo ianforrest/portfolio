@@ -45,9 +45,9 @@ const booksList = getBooksList().sort(function(a, b) {
   
 return (
 
-    <div>
+    <div className="book-shelf-container">
         <h2>Bookshelf</h2>
-        <p>Here's what I've been reading lately.</p>
+        <p>And here's what I've been reading lately.</p>
         
         <div className="columns book-shelf is-multiline is-vcentered">
             {booksList.map((book) => (
