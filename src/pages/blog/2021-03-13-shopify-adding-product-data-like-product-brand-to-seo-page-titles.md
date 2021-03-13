@@ -43,7 +43,7 @@ Here’s how to pull it off by adding a product's vendor attribute to the code t
 {%- endcapture -%}
 ```
 
-3. For themes like Debut and Brooklyn, you'll open up the theme.liquid file in the layout folder. Hone in on the capture seo_title portion of the theme file and add {{ product.vendor }} to the front of {{ page_title }}.
+3. For themes like Debut and Brooklyn, you'll open up the theme.liquid file in the layout folder. Hone in on the capture seo_title portion of the theme file and add product.vendor to the front of the page title. (Line 5 below):
 
 ```ruby
 {%- capture seo_title -%}
