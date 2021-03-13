@@ -8,8 +8,6 @@ featuredpost: false
 featuredimage: /img/lucrezia-carnelos-wq9vup_njr4-unsplash.jpg
 tags:
   - posts
-  - shopsmall
-  - ""
 ---
 *Note: Starting a Shopify or SquareSpace site = easy. Getting people to actually visit it = kind of hard.* 
 
@@ -24,8 +22,7 @@ In some cases, though, a subtle tweak might make a big difference. If you’re a
 Here’s how to pull it off by adding a product's vendor attribute to the code that generates each page title.
 
 1. Log in to your Shopify admin area and navigate to the Themes page of your Online Store. Click the Action dropdown next to your theme and click Edit code.
-
-2 a. Your next step depends on how your theme is built. Themes like Impulse and Supply have an seo-title.liquid file in the Snippets folder. In those cases, open up the seo-title.liquid file and add {{ product.vendor }} to the front of {{ page_title }} and hit Save.
+2. Your next step depends on how your theme is built. Themes like Impulse and Supply have an seo-title.liquid file in the Snippets folder. In those cases, open up the seo-title.liquid file and add {{ product.vendor }} to the front of {{ page_title }} and hit Save.
 
 ```ruby
 {%- capture seo_title -%}
@@ -46,14 +43,14 @@ Here’s how to pull it off by adding a product's vendor attribute to the code t
 {%- endcapture -%}
 ```
 
-2 b. For themes like Debut and Brooklyn, you'll open up the theme.liquid file in the layout folder. Hone in on the capture seo_title portion of the theme file and add {{product.vendor }} to the front of {{ page_title }}.
+3. For themes like Debut and Brooklyn, you'll open up the theme.liquid file in the layout folder. Hone in on the capture seo_title portion of the theme file and add {{ product.vendor }} to the front of {{ page_title }}.
 
 ```ruby
 {%- capture seo_title -%}
     {%- if request.page_type == 'search' and search.performed == true -%}
       {{ 'general.search.heading' | t: count: search.results_count }}: {{ 'general.search.results_with_count' | t: terms: search.terms, count: search.results_count }}
     {%- else -%}
-      {{ page_title }}
+      {{ product.vendor }} {{ page_title }}
     {%- endif -%}
     {%- if current_tags -%}
       {%- assign meta_tags = current_tags | join: ', ' -%} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
