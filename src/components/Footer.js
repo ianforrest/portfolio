@@ -12,9 +12,9 @@ const Footer = class extends React.Component {
 
             <div className="columns">
 
-              <div className="column is-4 is-offset-1" >
+              <div className="column is-10 is-offset-1" >
 
-              <p className="has-text-centered">Copyright 2020 Ian Forrest Web Development.</p>
+              <p className="has-text-centered">Copyright 2021 Ian Forrest Web Development.</p>
                 
               
               </div>
