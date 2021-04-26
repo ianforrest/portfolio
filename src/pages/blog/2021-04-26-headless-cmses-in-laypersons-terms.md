@@ -5,7 +5,7 @@ date: 2021-04-26T04:30:58.940Z
 description: "Let's talk about headless content management systems in
   layperson's terms. What are they and why would a company use one? "
 featuredpost: false
-featuredimage: /img/headless.jpg
+featuredimage: /img/headless-statue.jpg
 tags:
   - posts
 ---
