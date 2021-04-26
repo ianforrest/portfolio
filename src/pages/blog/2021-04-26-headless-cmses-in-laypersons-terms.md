@@ -21,11 +21,17 @@ Consider cat monster. 
 
 ![A Sketch Of A Monster With A Cat Head](/img/cat-monster-1.jpg "Cat Monster")
 
+Cat monster with a traditional CMS is all part of the same entity. 
+
+Once cat monster’s head is removed from their body, however, they gain flexibility to have as many heads as they want. 
+
+
+
 ![A Sketch Of A Headless Monster Carrying Multiple Heads](/img/cat-monster-2.jpg "Headless Cat Monster")
 
-Cat monster with a traditional CMS is all part of the same entity. Once cat monster’s head is removed from their body, however, they gain flexibility to have as many heads as they want. Cat monster can now use the data from their body (a single headless CMS) as the content for any product they want: an iPhone app, an Android app, a smart TV app, a product marketing website and a company intranet.
+Cat monster can now use the data from their body (a single headless CMS) as the content for any product they want: an iPhone app, an Android app, a smart TV app, a product marketing website and a company intranet.
 
-That starts to look pretty attractive for a company that wants to futureproof the content they invest in creating. The best way to build a website always starts with an “it depends,” but there is absolutely a right choice and a wrong choice for companies with complexities and varied consumption points for the data produced by their CMS. I’d run, and not walk, to a headless CMS if that sounds like your organization.
+That starts to look pretty attractive for a company that wants to future-proof the content they invest in creating. The best way to build a website always starts with an “it depends,” but there is absolutely a right choice and a wrong choice for companies with complexities and varied consumption points for the data produced by their CMS. I’d run, and not walk, to a headless CMS if that sounds like your organization.
 
 Some common headless CMSes: [Contentful](https://www.contentful.com/), [GraphCMS](https://graphcms.com/), [Strapi](https://strapi.io/), [Sanity](https://www.sanity.io/), and even [Shopify](https://www.shopify.com/) and [WordPress](https://wordpress.org/) *can* be headless CMSes, too.
 
