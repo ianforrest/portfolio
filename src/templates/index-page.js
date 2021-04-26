@@ -49,6 +49,49 @@ export const IndexPageTemplate = ({
         </div>
 
     </section>
+    <section className="section section-bio">
+    <div className="columns">
+            <div className="column is-10 is-offset-1">
+      <div className="content">
+        <div className="bio-container">
+          <div className="bio-avatar">
+            <div className="bio-avatar-inner">
+              <img
+                src={ianphoto}
+                alt="Ian Forrest"
+              />
+            </div>
+          </div>
+          <p className="bio-text">{intro.description}</p> 
+          <div className="social">
+            <a title="github" href="https://github.com/ianforrest">
+              <img
+                src={github}
+                alt="Github"
+                style={{ width: '1em', height: '1em' }}
+              />
+            </a>  
+            <a title="twitter" href="https://twitter.com/ianforrest">
+              <img
+                className="fas fa-lg"
+                src={twitter}
+                alt="Twitter"
+                style={{ width: '1em', height: '1em' }}
+              />
+            </a>
+            <a title="instagram" href="https://instagram.com/ianforrest">
+              <img
+                src={instagram}
+                alt="Instagram"
+                style={{ width: '1em', height: '1em' }}
+              />
+              </a>
+          </div>   
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
 
     <section className="section section-light">
       <div className="container">
@@ -68,40 +111,7 @@ export const IndexPageTemplate = ({
                   
                     <BlogRoll />
                     <BookShelf />
-                    <div className="bio-container">
-                  <div className="bio-avatar">
-                    <div className="bio-avatar-inner">
-                      <img
-                        src={ianphoto}
-                        alt="Ian Forrest"
-                      />
-                    </div>
-                 </div>
-                  <p className="bio-text">{intro.description}</p> <div className="social"><a title="github" href="https://github.com/ianforrest">
-                  <img
-                    src={github}
-                    alt="Github"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
 
-             
-                <a title="twitter" href="https://twitter.com/ianforrest">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com/ianforrest">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a></div> 
-                </div>
                 
               </div>
             </div>
