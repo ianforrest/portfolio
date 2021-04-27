@@ -50,6 +50,7 @@ export const IndexPageTemplate = ({
 
     </section>
     <section className="section section-bio">
+      <div className="container">
     <div className="columns">
             <div className="column is-10 is-offset-1">
       <div className="content">
@@ -87,6 +88,7 @@ export const IndexPageTemplate = ({
               />
               </a>
           </div>   
+      </div>
       </div>
       </div>
       </div>
