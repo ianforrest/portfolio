@@ -21,13 +21,13 @@ Consider this website cupcake.
 
 ![A cupcake with labels to represent a website's architecture.](/img/website-cupcake-1.jpg "Cat Monster")
 
-A website cupcake with a traditional CMS is all part of the same cupcake.
+With a traditional CMS, your website's frosting (the presentation layer) is very much entwined with the CMS.
 
-Once a website cupcake's frosting head is removed from its body, however, the website cupcake becomes headless and gains flexibility to have as many heads as it needs.
+But once a website cupcake's frosting head is removed from its body, the website cupcake becomes headless and gains flexibility to have as many heads as it needs.
 
 ![A cupcake with labels to represent different sources where CMS content might be consumed](/img/website-cupcake-2.jpg "Headless Website Cupcake")
 
-This website cupcake can now use the data from their layer cake (a single headless CMS) as the content for any tasty frosting they want: a mobile app, a smart TV app, a product marketing website and a company intranet.
+This website cupcake can now use the data from their content layer (a single headless CMS) as the content for any tasty frosting they want: a mobile app, a smart TV app, a product marketing website and a company intranet.
 
 That starts to look pretty attractive for a company that wants to future-proof the content they invest in creating. The best way to build a website always starts with an “it depends,” but there is absolutely a right choice and a wrong choice for companies with complexities and varied consumption points for the data produced by their CMS. I’d run, and not walk, to a headless CMS if that sounds like your organization.
 
