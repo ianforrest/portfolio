@@ -23,26 +23,14 @@ const BookShelf = (props) => {
                 });
             });
            
-    return booksList;
+    return booksList.sort(function(a,b) {
+        return a.status.rating - b.status.rating;
+    });
   
 };
 
-const booksList = getBooksList().sort(function(a, b) {
-    var nameA = new Date(a.status.completeDate)
-    var nameB = new Date(b.status.completeDate)
-    var nameAMilli = nameA.getTime();
-    var nameBMilli = nameB.getTime();
+const booksList= getBooksList();
 
-    if (nameAMilli < nameBMilli) {
-        return -1;
-    }
-    if (nameAMilli > nameBMilli) {
-        return 1
-    }
-    return 0
-});
-
-  
 return (
 
     <div className="book-shelf-container">
@@ -51,23 +39,23 @@ return (
         
         <div className="columns book-shelf is-multiline is-vcentered">
             {booksList.map((book) => (
-            <div className="column is-one-third" key={book.title}>
-                <div className="box">
-                    <div>
-                        <div className="is-centered">
-                            <img 
-                                src={book.bookPhoto} 
-                                alt={book.title + "by" + book.author}
-                                className="book is-centered"/>
+                <div className="column is-one-third" key={book.title}>
+                    <div className="box">
+                        <div>
+                            <div className="is-centered">
+                                <img 
+                                    src={book.bookPhoto} 
+                                    alt={book.title + "by" + book.author}
+                                    className="book is-centered"/>
+                            </div>
+                            <div className="book-status has-text-centered">
+                                <BookRating rating={book.status.rating} />
+                                
+                            </div>
+                        
                         </div>
-                        <div className="book-status has-text-centered">
-                             <BookRating rating={book.status.rating} />
-                            
-                        </div>
-                       
                     </div>
                 </div>
-            </div>
                   
             )
             )}
