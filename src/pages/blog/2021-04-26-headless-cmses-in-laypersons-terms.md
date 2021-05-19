@@ -19,13 +19,13 @@ But what happens if you use a *headless* CMS? Well, you’ve fully separated the
 
 Consider this website cupcake.
 
-![A cupcake with labels to represent a website's architecture.](/img/website-cupcake-1.jpg "Cat Monster")
+![A cupcake with labels to represent a website's architecture.](/img/cupcake-1.png "Cat Monster")
 
 With a traditional CMS, your website's frosting (the presentation layer) is very much entwined with the CMS.
 
 But once a website cupcake's frosting head is removed from its body, the website cupcake becomes headless and gains flexibility to have as many heads as it needs.
 
-![A cupcake with labels to represent different sources where CMS content might be consumed](/img/website-cupcake-2.jpg "Headless Website Cupcake")
+![A cupcake with labels to represent different sources where CMS content might be consumed](/img/cupcake2.png "Headless Website Cupcake")
 
 This website cupcake can now use the data from their content layer (a single headless CMS) as the content for any tasty frosting they want: a mobile app, a smart TV app, a product marketing website and a company intranet.
 
