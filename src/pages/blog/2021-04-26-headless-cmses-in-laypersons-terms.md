@@ -9,6 +9,8 @@ featuredimage: /img/headless-statue.jpg
 tags:
   - posts
 ---
+![Headless Statue](/img/headless-statue.jpg)
+
 What is a headless CMS? Why would a company use one? To answer that, we can look at how websites are traditionally built to see the benefit of lopping off a content management system's head.
 
 When you build a website, you choose a content management system (CMS) so that it’s easy for your people to update the website in the future: change text, add photos and add new pages. Most websites today are built with traditional CMSes, where the code for your CMS is tightly integrated into the actual website and web pages delivered to your website visitors, i.e. the presentation layer. This presentation layer of your website (where the actual design is determined) and the content layer (where the content is authored and created) are all baked into the same cupcake.
@@ -19,7 +21,7 @@ But what happens if you use a *headless* CMS? Well, you’ve fully separated the
 
 Consider this website cupcake.
 
-![A cupcake with labels to represent a website's architecture.](/img/cupcake-1.png "Cat Monster")
+![A cupcake with labels to represent a website's architecture.](/img/cupcake.png "Website Cupcake")
 
 With a traditional CMS, your website's frosting (the presentation layer) is very much entwined with the CMS.
 
